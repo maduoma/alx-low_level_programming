@@ -1,14 +1,12 @@
 #include <stdio.h>
-/**
-*main - Entry point
-*
-*Return: zero
-*
-*/
-int main(void)
-{	
-	char firsString[] = "\"Programming is like building a multilingual puzzle";
-	puts(firstString);
-	return(0);
-}
 
+/**
+* main - Entry point
+*
+* Return: Always 0 (Success)
+*/
+int main(void) 
+{	
+puts("\"Programming is like building a multilingual puzzle");
+return(0);
+}
