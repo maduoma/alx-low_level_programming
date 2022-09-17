@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _is:wer - Returns 1 if is is lower or 0 otherwise
+ * _islower - Returns 1 if is is lower or 0 otherwise
  * This program returns 1 or 0
  * @c: Character to be checked
  * Return: Always 0
