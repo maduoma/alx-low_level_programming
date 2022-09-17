@@ -1,18 +1,16 @@
 #include "main.h"
 
 /**
- * _is:wer - Returns 1 if is is lower
- * or 0 otherwise
+ * _is:wer - Returns 1 if is is lower or 0 otherwise
+ * This program returns 1 or 0
+ * @c: Character to be checked
  * Return: Always 0
  */
 int _islower(int c)
 {
-	if (c >= 97 && c <= 122)
+	if (c >= 'a' && c <= 'z')
 	{
 		return (1);
 	}
-	else
-	{
-		return (0);
-	}
+	return (0);
 }
