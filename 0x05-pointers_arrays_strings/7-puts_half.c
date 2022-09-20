@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * push_half - Prints half of a string
+ * puts_half - Prints half of a string
  * @str: Character
  */
-void push_half(char *str)
+void puts_half(char *str)
 {
 	int m, n, i, j;
 
