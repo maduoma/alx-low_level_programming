@@ -2,16 +2,16 @@
 
 /**
  * print_rev - Prints the string reverse
- * @s: This will the string
+ * @str: This will hold the string
  */
-void print_rev(char *s)
+void print_rev(char *str)
 {
 
-	if (s)
+	if (str)
 	{
-		while (*s)
+		while (*str)
 		{
-			_putchar(*s++);
+			_putchar(*str++);
 		}
 	{
 	_putchar('\n');
