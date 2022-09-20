@@ -38,7 +38,7 @@ void rev_string(char *s)
  * Return: length of c.
  */
 
-int string_length(cahr *pointer)
+int string_length(char *pointer)
 {
 	int c = 0;
 
