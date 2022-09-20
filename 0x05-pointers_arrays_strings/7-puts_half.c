@@ -12,14 +12,14 @@ void push_half(char *str)
 
 	if (string_length(str) % 2 == 0)
 	{
-		for (i = m; i < string_lenth(str); i++)
+		for (i = m; i < string_length(str); i++)
 		{
 			_putchar(str[i]);
 		}
 	}
 	else if (string_length(str) % 2 != 0)
 	{
-		n = (string_lenth(str) - 1) / 2;
+		n = (string_length(str) - 1) / 2;
 		for (j = n; j <= string_length(str); j++)
 		{
 			_putchar(str[j]);
@@ -34,7 +34,7 @@ void push_half(char *str)
  * @pointer: pointer
  * Return: length of c
  */
-int string_lenth(char *pointer)
+int string_length(char *pointer)
 {
 	int c = 0;
 
