@@ -3,8 +3,8 @@
 
 /**
  * jack_bauer - Prints every minute of jack bauer.
- * @hr: Responsible for hour
- * @ms: Responsible for minute
+ * @hr: Hour
+ * @ms: Minute
  * Return: Alwways 0
  */
 void jack_bauer(void)
