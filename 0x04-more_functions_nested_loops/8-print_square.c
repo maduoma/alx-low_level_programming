@@ -9,7 +9,7 @@ void print_square(int size)
 	int c, j;
 
 	if (size <= 0)
-		_putcahr('\n');
+		_putchar('\n');
 
 	for (c = 0; c < size; c++)
 	{
