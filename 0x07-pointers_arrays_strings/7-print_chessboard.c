@@ -4,7 +4,6 @@
  * print_chessboard - prints the chessboard.
  * @a: chessboard to be printed
  */
-
 void print_chessboard(char (*a)[8])
 {
 	int index1, index2;
