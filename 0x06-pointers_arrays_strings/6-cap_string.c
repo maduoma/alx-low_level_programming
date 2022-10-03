@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * *cap_string - capitalizes all words of a string
- * @str: String to be capitalized
+ * *cap_string - Capitalizes all words of a string
+ * @str: The string to be capitalized
  * Return: Pointer to the string
  */
 
@@ -13,7 +13,6 @@ char *cap_string(char *str)
 	i = counter = 0;
 	while (str[i] != '\0')
 		i++;
-
 	for (j = 0; j < i; j++)
 	{
 		if (counter == 0)
@@ -26,6 +25,8 @@ char *cap_string(char *str)
 		if (str[j] == '!' || str[j] == '"' || str[j] == '(' || str[j] == ')')
 			counter = 0;
 		else if (str[j] == ',' || str[j] == '.' || str[j] == '{' || str[j] == '}')
+			counter = 0;
+		else if (str[j] == ';' || str[j] == '?' || str[j] == '\n')
 			counter = 0;
 		else if (str[j] == '\t')
 			counter = 0;
